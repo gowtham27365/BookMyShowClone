@@ -1,4 +1,4 @@
-package com.example.bookmyshow.Controllers;
+package com.example.bookmyshow.Dtos;
 
 import java.util.List;
 

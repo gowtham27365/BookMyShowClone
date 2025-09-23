@@ -1,5 +1,7 @@
 package com.example.bookmyshow.Models;
 
+import java.util.Date;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -17,5 +19,8 @@ public class ShowSeat extends BaseModel {
     private Seat seat; // 1 : 1 && M : 1 => M : 1
     @Enumerated(EnumType.ORDINAL)
     private ShowSeatStatus status;
+    private Date lockedAt;
+
+
 
 }
